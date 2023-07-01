@@ -152,7 +152,8 @@ body{
 }
 
 .homeBody .homeInfoText h3{
-	color:rgb(211, 160, 19); ;
+	color:rgb(211, 160, 19); 
+	text-shadow: 1px 1px 2px rgb(189, 17, 17);
 }
 .homeBody .homeInfoText .auto_input{
 	border-bottom: 3px solid red;
