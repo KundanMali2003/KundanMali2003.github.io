@@ -153,7 +153,7 @@ body{
 
 .homeBody .homeInfoText h3{
 	color:rgb(211, 160, 19); 
-	text-shadow: 1px 1px 2px rgb(189, 17, 17);
+	text-shadow: 1px 1px 2px  rgb(189, 17, 17);
 }
 .homeBody .homeInfoText .auto_input{
 	border-bottom: 3px solid red;
@@ -1419,6 +1419,10 @@ body{
 	.reviewContents .reviewCardsWrapper{
 		min-height: 450px;
 	}
+	.reviewContents .reviewCardsIndicators{
+		margin-left: 1px;
+		margin-right: -35px;
+	}
 }
 
 @media(max-width: 350px){
@@ -1428,6 +1432,10 @@ body{
 	}
 	.reviewContents .reviewCardsWrapper{
 		min-height: 480px;
+	}
+	.reviewContents .reviewCardsIndicators{
+		margin-left: 0px;
+		margin-right: -36px;
 	}
 	.contactContentsRow .contactDetails{
 		min-width: 250px;
